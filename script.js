@@ -1,11 +1,8 @@
 function getFormvalue() {
     //Write your code here
-	var fname=document.getElementbyName(fname);
-	var lname=document.getElementbyName(lname);
+	var firstname=document.getElementById("fname").value;
+	var lastname=document.getElementById("lname").value;
 
-	var firname=fname.value;
-	var lasname=lname.value;
+	alert(firstname+ " " + lastname);
+}
 
-	alert(firname + lasname);
-}
-}
